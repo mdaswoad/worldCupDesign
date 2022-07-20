@@ -100,6 +100,7 @@ font-family: 'Raleway', sans-serif;
     padding:8px 0px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
+    border:1px solid gray
 }
 .thirid{
     background-color: red !important;
@@ -113,6 +114,9 @@ font-family: 'Raleway', sans-serif;
 }
 .imageboxmin img{
     width:100%
+}
+.btn{
+    display: none;
 }
 /*****************************
 ****upcomming and gallery box layout*************
@@ -166,9 +170,10 @@ grid layout design
 _______________________________*/
 footer{
     background-color: #272525;
+    padding-bottom: 2rem;
 }
 .continerboxf{
-    width:1105px ;
+    width:1205px ;
     margin:auto;
     color:white
 }
@@ -205,31 +210,44 @@ footer{
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    body{
-        background-color:red;
-    }
+@media only screen and (max-width: 688px) {
+
     *{margin:0;padding:0}
     .continerWrap{
-        width:100%;
+        width:90%;
         margin:auto;
         overflow: hidden;
     }
     .box{
         grid-template-columns: 1fr;
     }
+    .contentBox h1{
+        text-align: center;
+    }
+    .contentBox p{
+        text-align: center;
+        padding:1.4rem;
+    }
+    .contentBox a{
+        margin:3rem auto;
+    }
+    .image{
+        /* margin:1.4rem auto; */
+        width:95%
+    }
     /*second section design with our */
     .secontBoxWrapper{
-        width:100%
+        width:90%
     }
     .continerBoxsecnd{
         grid-template-columns: 1fr;
     }
     .gridWraperr{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
     }
     .upComing{
-        width:100%
+        width:100%;
+        background-color: white;
     }
     .minBox{
         overflow: hidden;
@@ -242,18 +260,75 @@ footer{
     }
     .contentLink{
         grid-template-columns: 1fr;
-        padding:1rem
+        padding:1rem;
+
+    }
+    .contentLink a{
+        margin: 1rem 0rem;
+    }
+    .btn{
+        display: none;
     }
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+/* 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 689px) and (max-width:992px){
+    *{margin:0;padding:0}
+    .continerWrap{
+        width:90%;
+        margin:auto;
+        overflow: hidden;
+    }
+    
+    
+    /*second section design with our */
+    .secontBoxWrapper{
+        width:90%
+    }
+    .continerBoxsecnd{
+        grid-template-columns: 1fr;
+    }
+    .gridWraperr{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .upComing{
+        width:100%;
+        background-color: white;
+        display:grid;
+        grid-template-columns:repeat(3,1fr) ;
+    }
+    .minBox{
+        overflow: hidden;
+        width: 100%;
+        
+    }
+    .minBox:last-child{
+        display: none;
+    }
+    .btn{
+        display:block;
+        width: 100%;
+    }
+    .btn a{
+        text-align: center;
+        width:160px;
+        margin:3rem auto;
+        display: block;
+        text-decoration:none ;
+        background: red;
+        color:white;
+        font-size: 1.4rem;
+        padding: .6rem .8rem;
+        font-family: arial;
+        border-radius: 5px;
+    }
+    /* .contentLink{} */
+    /*footer*/
+.continerboxf{
+    width:100%
+}
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
