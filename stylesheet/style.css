@@ -148,7 +148,11 @@ grid layout design
     text-decoration: none;
     border-radius: 5px;
     padding:5px 4px ;
-    margin:10px 10px 
+    margin:10px 10px ;
+    font-family:'Lato', sans-serif;
+    color:#514c4c;
+    font-weight: 600;
+    letter-spacing: 1px;
 
 }
 .contextText h3{
