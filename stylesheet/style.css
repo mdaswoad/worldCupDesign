@@ -20,7 +20,7 @@ font-family: 'Raleway', sans-serif;
 
 .continerWrap{
     width:1205px;
-    margin:auto;
+    margin:2.4rem auto;
     overflow: hidden;
     border-radius: 20px;
 }
@@ -74,8 +74,31 @@ font-family: 'Raleway', sans-serif;
 /*--------------------------
 ---------secend section with gellary design--
 --------------------------------*/
-
-
+.secontBoxWrapper{
+    width:1200px;
+    margin:0 auto;
+}
+.upComing {
+    width: 300px;
+    background-color:#272525;
+    padding: 3rem 0;
+    margin:5rem 0;
+    border-radius: .7rem;
+}
+.upComing .sem {
+    display: block;
+    text-align: center;
+    font-size: 1.4rem;
+    text-decoration: none;
+    margin:.7rem auto;
+    background-color: white;
+    width: 220px;
+    border-radius: 5px;
+    color:black;
+    padding:8px 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
 
 
 
@@ -94,7 +117,21 @@ footer{
     color:white
 }
 .contentLink a{
-    color :white;
+    color :#8b8888;
     text-decoration: none;
-    font-family: ;
+    font-family:'Raleway', sans-serif ;
+    
+}
+.contentLink {
+    text-align: center;
+    padding: 1rem 0rem 1rem 0rem;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    color:
+}
+.goal{
+    text-align: center;
+    padding: 3rem 0rem;
+    font-size:3.5rem;
+    font-family:Lato', sans-serif;
 }
