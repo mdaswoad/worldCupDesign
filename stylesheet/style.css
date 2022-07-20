@@ -202,9 +202,45 @@ footer{
     margin:1rem 0 3rem 0;
 }
 
+/* social icon design with  */
+.social {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin:3.5rem 0;
+}
+.inputbox input {
+    outline: none;
+    border:none;
+    padding: 12px 24px;
+    text-align: center;
+    border-radius: 12px;
+    width: 300px;
+}
+.wrap{
+    position: relative;
+}
+.inputbox button{
+    padding: 11.7px 24px;
+    text-align: center;
+    background-color: red;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 260px;
+    top: 0;
+    border-radius: 12px;
+    color:white
+}
+.social_link div a {
+    text-decoration: none;
+    color:#8b8888;
+    letter-spacing: 1.5px;
+    font-family: 'Lato', sans-serif;
 
-
-
+}
 
 /*************************************
 *******second  page design***********
@@ -221,7 +257,12 @@ footer{
 .rapflag div img {
     width: 100%;
 }
-
+.social_link {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: space-between;
+}
 .title h2 {
     text-align: center;
     padding: 1.2rem 0 .6rem;
@@ -295,6 +336,10 @@ footer{
     .btn{
         display: none;
     }
+    /*social*/
+    .social{
+     display: none;
+    }
 }
 /* 
 
@@ -349,10 +394,25 @@ footer{
         font-family: arial;
         border-radius: 5px;
     }
+    
     /* .contentLink{} */
     /*footer*/
+    /*****************social section*/
 .continerboxf{
     width:100%
+}
+.inputbox input{
+    width:60%;
+    text-align: left;
+    padding:12px;
+}
+.inputbox button{
+    width: 30%;
+    left: 50%;
+}
+.social_link div a{
+    font-size: .9rem;
+    letter-spacing: initial;
 }
 }
 
