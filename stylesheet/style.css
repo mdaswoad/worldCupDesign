@@ -204,11 +204,37 @@ footer{
 
 
 
+
+
+/*************************************
+*******second  page design***********
+********************************/
+.rapflag {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    align-content: space-around;
+    text-align: center;
+    justify-content: space-around;
+    margin:1.3rem ;
+}
+.rapflag div img {
+    width: 100%;
+}
+
+.title h2 {
+    text-align: center;
+    padding: 1.2rem 0 .6rem;
+}
+
+.title p {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
 /****************************
 ********responsive design************
 ****************************/
-
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 688px) {
 
@@ -330,5 +356,3 @@ footer{
 }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
