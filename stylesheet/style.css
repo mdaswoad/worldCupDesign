@@ -79,7 +79,7 @@ font-family: 'Raleway', sans-serif;
 --------------------------------*/
 .secontBoxWrapper{
     width:1200px;
-    margin:0 auto;
+    margin:3rem auto;
 }
 .upComing {
     width: 300px;
@@ -100,6 +100,16 @@ font-family: 'Raleway', sans-serif;
     padding:8px 0px;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
+}
+.thirid{
+    background-color: red !important;
+    color: white !important;;
+}
+.upComing .sem:hover{
+    color:white;
+    background-color: #272525;
+    border:1px solid white;
+    transition:.3s all;
 }
 .imageboxmin img{
     width:100%
@@ -126,9 +136,24 @@ grid layout design
     border: 1px solid #e9e2e2;
     border-radius: 5px;
 }
+.tccntrol a{
+    display: block;
+    text-align: center;
+    width: 120px ;
+    border: 1px solid gray;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:5px 4px ;
+    margin:10px 10px 
 
-
-
+}
+.contextText h3{
+    padding: 10px;
+    font-family:'Lato', sans-serif; 
+}
+.iconspan {
+    padding:5px 10px 
+}
 
 
 
@@ -165,3 +190,31 @@ footer{
     font-size:3.5rem;
     font-family:Lato', sans-serif;
 }
+.hrtag{
+    height: 2px;
+    background-color: #514c4c;
+    border:none;
+    margin:1rem 0 3rem 0;
+}
+
+
+
+/****************************
+********responsive design************
+****************************/
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
