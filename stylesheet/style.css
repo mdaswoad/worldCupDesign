@@ -13,10 +13,11 @@ font-family: 'Raleway', sans-serif;
 
 
 
-
+*{margin:0; padding:0 ;box-sizing: border-box;}
 /*---------------
 ----fast section design___
 ----------------------------------*/
+
 .continerWrap{
     width:1105px;
     margin:auto;
@@ -42,7 +43,9 @@ font-family: 'Raleway', sans-serif;
 .contentBox h1{
     font-size: 3.2rem;
     padding:20px 50px ;
-    color: white
+    color: white;
+    margin-top :4.5rem;
+    font-family: ;
 }
 .contentBox p{
     padding:0 50px ;
@@ -52,19 +55,45 @@ font-family: 'Raleway', sans-serif;
 
 }
 .contentBox a{
-    width:120px;
+    width:140px;
     display: block;
     background-color: red;
     text-align: center;
     margin:0px 50px;
     padding:10px 20px ;
-    text-decoration:
-    none;
-    color:
-    white;
+    text-decoration: none;
+    color: white;
     border-radius: 7px;
     margin-top: 3.4rem;
 }
 .editIcon{
     padding: 4px 0px 0px 8px;
+}
+
+/*--------------------------
+---------secend section with gellary design--
+--------------------------------*/
+
+
+
+
+
+
+
+
+/*-----------------------------
+********footer design********
+_______________________________*/
+footer{
+    background-color: #272525;
+}
+.continerboxf{
+    width:1105px ;
+    margin:auto;
+    color:white
+}
+.contentLink a{
+    color :white;
+    text-decoration: none;
+    font-family: ;
 }
