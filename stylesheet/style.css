@@ -1,0 +1,43 @@
+/*---------------
+----fast section design___
+----------------------------------*/
+.continerWrap{
+    width:1105px;
+    margin:auto;
+    border:1px solid red;
+    border-radius: 5px;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+}
+.image{
+    width:450px;
+    margin: -7px 0px;
+    padding: 0;
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+}
+/*-------fast section  text resignih*/
+.contentBox h1{
+    font-size: 3.2rem;
+    padding:20px 50px 
+}
+.contentBox p{
+    padding:0 50px ;
+    font-family: arial;
+
+}
+.contentBox a{
+    width:120px;
+    display: block;
+    background-color: red;
+    text-align: center;
+    margin:0px 50px;
+    padding:10px 20px ;
+    text-decoration:none;
+    color:white;
+}
