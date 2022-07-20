@@ -19,7 +19,7 @@ font-family: 'Raleway', sans-serif;
 ----------------------------------*/
 
 .continerWrap{
-    width:1105px;
+    width:1205px;
     margin:auto;
     overflow: hidden;
     border-radius: 20px;
@@ -44,14 +44,15 @@ font-family: 'Raleway', sans-serif;
     font-size: 3.2rem;
     padding:20px 50px ;
     color: white;
-    margin-top :4.5rem;
-    font-family: ;
+    margin-top :7.5rem;
+    font-family:'Raleway', sans-serif;
 }
 .contentBox p{
     padding:0 50px ;
     font-family: arial;
     color:white;
     line-height: 1.3rem;
+    font-family:'Dancing Script', cursive;
 
 }
 .contentBox a{
